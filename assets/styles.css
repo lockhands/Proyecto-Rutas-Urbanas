@@ -1,0 +1,142 @@
+/* AUTHENTICATION */
+
+body {
+  min-height: 100vh;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.containerForm {
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 200px;
+}
+
+.containerForm form {
+  width: 90%;
+}
+.containerForm label {
+  margin-top: 20px;
+}
+
+.btn-custom {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* ADMIN ROUTES */
+.containerFormRoutes {
+  width: 90%;
+  min-height: 90vh;
+  margin-top: 30px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerRoutes {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.routeItem {
+  cursor: pointer;
+  margin: 10px;
+  width: 300px;
+  min-height: 150px;
+  border-radius: 15px;
+  background: #f7f7f7;
+  border: 2px solid #e0e0e0;
+  transition: 0.3s all;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+
+  text-decoration: none;
+  color: #000;
+}
+
+.routeItem img {
+  width: 100px;
+  margin: 0 auto;
+}
+.routeItem p {
+  text-align: center;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.routeItem:hover {
+  transform: scale(1.05);
+  transition: 0.3s all;
+}
+
+.createRoute {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+.createRoute p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* USER ROUTES */
+
+.containerSearch {
+  display: flex;
+  width: 100%;
+  max-width: 700px;
+}
+.containerSearch div {
+  margin: 10px;
+  width: 100%;
+}
+.containerSearch .searchDropdown {
+  width: 100%;
+}
+.containerSearch .search {
+  width: 100%;
+}
+
+.custom-modal div {
+  display: flex;
+}
+.custom-modal p {
+  font-weight: 700;
+  font-size: 18px;
+}
+.custom-modal span {
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.button-footer {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  right: 20px;
+  padding: 10px;
+  background: white;
+
+  text-align: center;
+}
+.button-footer a {
+  font-weight: 600;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+  transition: 0.3s all;
+  text-decoration: none;
+  color: #000;
+}
+.button-footer a:hover {
+  transform: scale(1.05) translateY(10px);
+  transition: 0.3s all;
+}
